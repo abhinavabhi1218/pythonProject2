@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+<form action="" method="POST">{% csrf_token %}
+{{data.as_table}}
+  <button type="submit">submit</button>
+</form>
+</body>
+</html>
